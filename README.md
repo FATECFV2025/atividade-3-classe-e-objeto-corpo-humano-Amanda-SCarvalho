@@ -33,8 +33,11 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+O Codigo nao compila, porque massa esta como privado, e nao da para acessar fora da classe
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+a massa estaria acessivel fora da classe, porque agora estaria publica
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+O setVolume na vai poder ser chamado de fora da classe e nem auterado, porque agora ele esta privado
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
